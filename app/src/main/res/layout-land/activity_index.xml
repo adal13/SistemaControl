@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".index">
+
+
+    <RelativeLayout
+        android:id="@+id/info_paciente"
+        android:layout_width="389dp"
+        android:layout_height="130dp"
+        android:background="@drawable/button_rounded"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.021">
+
+        <ImageView
+            android:id="@+id/img_info_paciente"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="23dp"
+            android:layout_marginTop="13dp"
+            android:layout_marginEnd="249dp"
+            android:layout_marginBottom="21dp"
+            android:src="@drawable/datos"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.100000024"
+            app:srcCompat="@drawable/datos" />
+
+        <TextView
+            android:id="@+id/txt_infoPaciente"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="183dp"
+            android:layout_marginEnd="86dp"
+            android:layout_marginBottom="60dp"
+            android:src="@drawable/datos"
+            android:text="Lista de pacientes"
+            app:layout_constraintBottom_toTopOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.18"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="parent"
+            app:layout_constraintVertical_bias="0.060000002" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_procedimiento"
+        android:layout_width="389dp"
+        android:layout_height="130dp"
+        android:background="@drawable/button_rounded"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/info_paciente"
+        app:layout_constraintVertical_bias="0.026">
+
+        <ImageView
+            android:id="@+id/img_procedimiento"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="229dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="42dp"
+            android:layout_marginBottom="9dp"
+            android:src="@drawable/procedimiento"
+            app:srcCompat="@drawable/procedimiento" />
+
+        <TextView
+            android:id="@+id/txt_procedimiento"
+            android:layout_width="114dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="54dp"
+            android:layout_marginEnd="221dp"
+            android:layout_marginBottom="61dp"
+            android:gravity="center"
+            android:text="Procedimiento"
+            app:layout_constraintBottom_toTopOf="@+id/img_procedimiento"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.51"
+            app:layout_constraintStart_toEndOf="@+id/img_procedimiento"
+            app:layout_constraintTop_toBottomOf="@+id/img_procedimiento"
+            app:layout_constraintVertical_bias="0.060000002" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_cursos"
+        android:layout_width="389dp"
+        android:layout_height="130dp"
+        android:background="@drawable/button_rounded"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rl_procedimiento"
+        app:layout_constraintVertical_bias="0.034">
+
+        <ImageView
+            android:id="@+id/img_curso"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="23dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="246dp"
+            android:layout_marginBottom="10dp"
+            android:src="@drawable/cursos"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.199"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="parent"
+            app:layout_constraintVertical_bias="0.289"
+            app:srcCompat="@drawable/cursos" />
+
+        <TextView
+            android:id="@+id/txt_cursos"
+            android:layout_width="52dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="236dp"
+            android:layout_marginEnd="101dp"
+            android:layout_marginBottom="62dp"
+            android:text="Cursos"
+            app:layout_constraintBottom_toTopOf="@+id/img_curso"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.23"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/img_curso"
+            app:layout_constraintVertical_bias="0.060000002" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_contactanos"
+        android:layout_width="389dp"
+        android:layout_height="130dp"
+        android:background="@drawable/button_rounded"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rl_cursos"
+        app:layout_constraintVertical_bias="0.049">
+
+        <ImageView
+            android:id="@+id/img_contactanos"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="237dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="37dp"
+            android:layout_marginBottom="16dp"
+            android:src="@drawable/contacto"
+            app:srcCompat="@drawable/contacto" />
+
+        <TextView
+            android:id="@+id/txt_contactanos"
+            android:layout_width="83dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="76dp"
+            android:layout_marginEnd="230dp"
+            android:layout_marginBottom="62dp"
+            android:text="Contactanos"
+            app:layout_constraintBottom_toTopOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.52"
+            app:layout_constraintStart_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/img_contactanos"
+            app:layout_constraintVertical_bias="0.060000002" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_infoLugar"
+        android:layout_width="389dp"
+        android:layout_height="130dp"
+        android:background="@drawable/button_rounded"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rl_contactanos"
+        app:layout_constraintVertical_bias="0.079">
+
+        <ImageView
+            android:id="@+id/img_info_lugar"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="21dp"
+            android:layout_marginEnd="256dp"
+            android:layout_marginBottom="7dp"
+            app:srcCompat="@drawable/lugar" />
+
+        <TextView
+            android:id="@+id/txt_infoLugar"
+            android:layout_width="142dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="185dp"
+            android:layout_marginEnd="62dp"
+            android:layout_marginBottom="59dp"
+            android:text="Informacion del lugar"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.19"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/img_info_lugar"
+            app:layout_constraintVertical_bias="0.060000002" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_politica_priv"
+        android:layout_width="389dp"
+        android:layout_height="130dp"
+        android:layout_marginTop="18dp"
+        android:background="@drawable/button_rounded"
+        android:gravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rl_infoLugar">
+
+        <ImageView
+            android:id="@+id/img_politica_priv"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="240dp"
+            android:layout_marginTop="9dp"
+            android:layout_marginEnd="34dp"
+            android:layout_marginBottom="22dp"
+            app:srcCompat="@drawable/privacidad" />
+
+        <TextView
+            android:id="@+id/txt_politicaPriv"
+            android:layout_width="155dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="42dp"
+            android:layout_marginEnd="196dp"
+            android:layout_marginBottom="67dp"
+            android:text="Politicas de privacidad"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.51"
+            app:layout_constraintStart_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/img_politica_priv"
+            app:layout_constraintVertical_bias="0.060000002" />
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

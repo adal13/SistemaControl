@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "37384614589",
+    "firebase_url": "https://systemcore-2ad2f-default-rtdb.firebaseio.com",
+    "project_id": "systemcore-2ad2f",
+    "storage_bucket": "systemcore-2ad2f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:37384614589:android:79b3bf3b055c74e1eb3dd4",
+        "android_client_info": {
+          "package_name": "com.example.sistemacontrol"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "37384614589-v57p9ii7flkpk16i77g3p0edqd4gohce.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMbD8DJvctiHg6z2LdbkoXzJ1NfhEtURs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "37384614589-v57p9ii7flkpk16i77g3p0edqd4gohce.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
