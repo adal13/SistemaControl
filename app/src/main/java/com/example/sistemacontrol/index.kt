@@ -1,16 +1,9 @@
 package com.example.sistemacontrol
 
 import android.content.Intent
-import android.content.res.Configuration
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.MenuItem
 import android.widget.RelativeLayout
-import android.widget.Toast
-import androidx.appcompat.app.ActionBarDrawerToggle
-import androidx.core.view.GravityCompat
-import androidx.drawerlayout.widget.DrawerLayout
-import com.google.android.material.navigation.NavigationView
 
 class index : AppCompatActivity() /*, NavigationView.OnNavigationItemSelectedListener */{
 
@@ -38,11 +31,42 @@ class index : AppCompatActivity() /*, NavigationView.OnNavigationItemSelectedLis
         navigationView.setNavigationItemSelectedListener(this)*/
 
          //Nos reenviara a la lista de pacientes
-        val info_paciente=findViewById<RelativeLayout>(R.id.info_paciente)
-        info_paciente.setOnClickListener {
+        val rl_info_paciente=findViewById<RelativeLayout>(R.id.rl_info_paciente)
+        rl_info_paciente.setOnClickListener {
             val lanzar = Intent (this, infopaciente::class.java)
             startActivity(lanzar)
         }
+
+        val rl_precedimiento=findViewById<RelativeLayout>(R.id.rl_procedimiento)
+        rl_precedimiento.setOnClickListener{
+            val lanzar = Intent(this, procedimiento::class.java)
+            startActivity(lanzar)
+        }
+
+        val rl_cursos=findViewById<RelativeLayout>(R.id.rl_cursos)
+        rl_cursos.setOnClickListener{
+            val lanzar = Intent(this, cursos::class.java)
+            startActivity(lanzar)
+        }
+
+        val rl_contactano=findViewById<RelativeLayout>(R.id.rl_contactanos)
+        rl_contactano.setOnClickListener{
+            val lanzar = Intent(this, contacto::class.java)
+            startActivity(lanzar)
+        }
+
+        val rl_info_lugar=findViewById<RelativeLayout>(R.id.rl_info_lugar)
+        rl_info_lugar.setOnClickListener{
+            val lanzar = Intent(this, info_lugar::class.java)
+            startActivity(lanzar)
+        }
+
+        val rl_politica_priv=findViewById<RelativeLayout>(R.id.rl_politica_priv)
+        rl_politica_priv.setOnClickListener {
+            val lanzar = Intent(this, privacidad::class.java)
+            startActivity(lanzar)
+        }
+
     }
 
     /*override fun onNavigationItemSelected(item: MenuItem): Boolean {

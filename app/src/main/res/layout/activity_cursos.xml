@@ -1,9 +1,304 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".cursos">
+    android:fillViewport="true">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".cursos">
+
+        <RelativeLayout
+            android:id="@+id/rl_anatomia"
+            android:layout_width="389dp"
+            android:layout_height="127dp"
+            android:background="@drawable/button_rounded"
+            android:gravity="center"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.02000000">
+
+            <ImageView
+                android:id="@+id/img_anatomia"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="23dp"
+                android:layout_marginTop="9dp"
+                android:layout_marginEnd="249dp"
+                android:layout_marginBottom="21dp"
+                android:src="@drawable/anatomia"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.2"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.100000024"
+                app:srcCompat="@drawable/anatomia" />
+
+            <TextView
+                android:id="@+id/txt_anatomia"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="183dp"
+                android:layout_marginEnd="86dp"
+                android:layout_marginBottom="60dp"
+                android:src="@drawable/anatomia"
+                android:text="Anatomia"
+                app:layout_constraintBottom_toTopOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.18"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="parent"
+                app:layout_constraintVertical_bias="0.060000002" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_fisiologia"
+            android:layout_width="389dp"
+            android:layout_height="130dp"
+            android:background="@drawable/button_rounded"
+            android:gravity="center"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/rl_anatomia"
+            app:layout_constraintVertical_bias="0.026">
+
+            <ImageView
+                android:id="@+id/img_fisiologia"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="229dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="45dp"
+                android:layout_marginBottom="12dp"
+                android:src="@drawable/fisiologia"
+                app:srcCompat="@drawable/fisiologia" />
+
+            <TextView
+                android:id="@+id/txt_fisologia"
+                android:layout_width="114dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="54dp"
+                android:layout_marginEnd="221dp"
+                android:layout_marginBottom="61dp"
+                android:gravity="center"
+                android:text="Fisiologia"
+                app:layout_constraintBottom_toTopOf="@+id/img_fisiologia"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.51"
+                app:layout_constraintStart_toEndOf="@+id/img_fisiologia"
+                app:layout_constraintTop_toBottomOf="@+id/img_fisiologia"
+                app:layout_constraintVertical_bias="0.060000002" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_embriologia"
+            android:layout_width="389dp"
+            android:layout_height="130dp"
+            android:background="@drawable/button_rounded"
+            android:gravity="center"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/rl_fisiologia"
+            app:layout_constraintVertical_bias="0.034">
+
+            <ImageView
+                android:id="@+id/img_embriologia"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="246dp"
+                android:layout_marginBottom="5dp"
+                android:src="@drawable/embrion"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.199"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="parent"
+                app:layout_constraintVertical_bias="0.289"
+                app:srcCompat="@drawable/embrion" />
+
+            <TextView
+                android:id="@+id/txt_embriologia"
+                android:layout_width="52dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="236dp"
+                android:layout_marginEnd="101dp"
+                android:layout_marginBottom="62dp"
+                android:text="Embriologia"
+                app:layout_constraintBottom_toTopOf="@+id/img_embriologia"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.23"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/img_embriologia"
+                app:layout_constraintVertical_bias="0.060000002" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_urgencias"
+            android:layout_width="389dp"
+            android:layout_height="130dp"
+            android:background="@drawable/button_rounded"
+            android:gravity="center"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/rl_embriologia"
+            app:layout_constraintVertical_bias="0.049">
+
+            <ImageView
+                android:id="@+id/img_urgencia"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="237dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="37dp"
+                android:layout_marginBottom="10dp"
+                android:src="@drawable/ambulancia"
+                app:srcCompat="@drawable/ambulancia" />
+
+            <TextView
+                android:id="@+id/txt_contactanos"
+                android:layout_width="83dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="76dp"
+                android:layout_marginEnd="230dp"
+                android:layout_marginBottom="62dp"
+                android:text="Urgencias"
+                app:layout_constraintBottom_toTopOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.52"
+                app:layout_constraintStart_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/img_urgencia"
+                app:layout_constraintVertical_bias="0.060000002" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_geriatria"
+            android:layout_width="389dp"
+            android:layout_height="130dp"
+            android:background="@drawable/button_rounded"
+            android:gravity="center"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/rl_urgencias"
+            app:layout_constraintVertical_bias="0.079">
+
+            <ImageView
+                android:id="@+id/img_geriatria"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="21dp"
+                android:layout_marginEnd="256dp"
+                android:layout_marginBottom="7dp"
+                app:srcCompat="@drawable/geriatria" />
+
+            <TextView
+                android:id="@+id/txt_geriatria"
+                android:layout_width="142dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="185dp"
+                android:layout_marginEnd="62dp"
+                android:layout_marginBottom="59dp"
+                android:text="Geriatria"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.19"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/img_geriatria"
+                app:layout_constraintVertical_bias="0.060000002" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_neonatologia"
+            android:layout_width="389dp"
+            android:layout_height="130dp"
+            android:layout_marginTop="18dp"
+            android:background="@drawable/button_rounded"
+            android:gravity="center"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/rl_geriatria">
+
+            <ImageView
+                android:id="@+id/img_neonatologia"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="240dp"
+                android:layout_marginTop="9dp"
+                android:layout_marginEnd="34dp"
+                android:layout_marginBottom="22dp"
+                app:srcCompat="@drawable/neonatologia" />
+
+            <TextView
+                android:id="@+id/txt_neonatologia"
+                android:layout_width="155dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="42dp"
+                android:layout_marginEnd="196dp"
+                android:layout_marginBottom="67dp"
+                android:text="Neonatologia"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.51"
+                app:layout_constraintStart_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/img_neonatologia"
+                app:layout_constraintVertical_bias="0.060000002" />
+        </RelativeLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

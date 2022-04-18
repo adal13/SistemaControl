@@ -11,13 +11,56 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+
+        <activity
+            android:name=".lavamano"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.Light">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".procedimiento" />
+        </activity>
+
+        <activity
+            android:name=".privacidad"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.Light">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".index" />
+        </activity>
+        <activity
+            android:name=".info_lugar"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.Light">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".index" />
+        </activity>
+        <activity
+            android:name=".contacto"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.Light">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".index" />
+        </activity>
         <activity
             android:name=".procedimiento"
             android:exported="false"
-            android:theme="@style/Theme.AppCompat.Light"/>
+            android:theme="@style/Theme.AppCompat.Light">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".index" />
+        </activity>
         <activity
             android:name=".cursos"
-            android:exported="false" />
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.Light">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".index" />
+        </activity>
         <activity
             android:name=".infopaciente"
             android:exported="false"
