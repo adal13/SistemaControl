@@ -17,6 +17,7 @@
             android:layout_width="389dp"
             android:layout_height="127dp"
             android:background="@drawable/button_rounded"
+            android:foreground="?android:attr/selectableItemBackground"
             android:gravity="center"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
@@ -47,14 +48,14 @@
 
             <TextView
                 android:id="@+id/txt_lava_mano"
-                android:layout_width="120dp"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentStart="true"
                 android:layout_alignParentEnd="true"
                 android:layout_alignParentBottom="true"
                 android:layout_marginStart="183dp"
-                android:layout_marginEnd="86dp"
-                android:layout_marginBottom="60dp"
+                android:layout_marginEnd="64dp"
+                android:layout_marginBottom="61dp"
                 android:src="@drawable/lava_mano"
                 android:text="Lavado de Mano"
                 app:layout_constraintBottom_toTopOf="parent"
@@ -70,13 +71,15 @@
             android:id="@+id/rl_cubreboca"
             android:layout_width="389dp"
             android:layout_height="130dp"
+            android:layout_marginTop="15dp"
             android:background="@drawable/button_rounded"
+            android:foreground="?android:attr/selectableItemBackground"
             android:gravity="center"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/rl_lava_mano"
-            app:layout_constraintVertical_bias="0.026">
+            app:layout_constraintVertical_bias="0.014">
 
             <ImageView
                 android:id="@+id/img_cubreboca"
@@ -114,16 +117,18 @@
         </RelativeLayout>
 
         <RelativeLayout
-            android:id="@+id/rl_cursos"
+            android:id="@+id/rl_embarazo"
             android:layout_width="389dp"
             android:layout_height="130dp"
+            android:layout_marginTop="15dp"
             android:background="@drawable/button_rounded"
+            android:foreground="?android:attr/selectableItemBackground"
             android:gravity="center"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/rl_cubreboca"
-            app:layout_constraintVertical_bias="0.034">
+            app:layout_constraintVertical_bias="0.009">
 
 
             <ImageView
@@ -149,14 +154,14 @@
 
             <TextView
                 android:id="@+id/txt_embarazo"
-                android:layout_width="66dp"
+                android:layout_width="78dp"
                 android:layout_height="wrap_content"
                 android:layout_alignParentStart="true"
                 android:layout_alignParentEnd="true"
                 android:layout_alignParentBottom="true"
-                android:layout_marginStart="228dp"
-                android:layout_marginEnd="95dp"
-                android:layout_marginBottom="60dp"
+                android:layout_marginStart="210dp"
+                android:layout_marginEnd="101dp"
+                android:layout_marginBottom="55dp"
                 android:text="Embarazo"
                 app:layout_constraintBottom_toTopOf="@+id/img_pru_embarazo"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -167,16 +172,18 @@
         </RelativeLayout>
 
         <RelativeLayout
-            android:id="@+id/rl_contactanos"
+            android:id="@+id/rl_emergencia"
             android:layout_width="389dp"
             android:layout_height="130dp"
+            android:layout_marginTop="15dp"
             android:background="@drawable/button_rounded"
+            android:foreground="?android:attr/selectableItemBackground"
             android:gravity="center"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/rl_cursos"
-            app:layout_constraintVertical_bias="0.049">
+            app:layout_constraintTop_toBottomOf="@+id/rl_embarazo"
+            app:layout_constraintVertical_bias="0.03">
 
 
             <ImageView
@@ -196,15 +203,15 @@
 
             <TextView
                 android:id="@+id/txt_emergencia"
-                android:layout_width="83dp"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentStart="true"
                 android:layout_alignParentEnd="true"
                 android:layout_alignParentBottom="true"
                 android:layout_centerHorizontal="true"
-                android:layout_marginStart="76dp"
-                android:layout_marginEnd="230dp"
-                android:layout_marginBottom="62dp"
+                android:layout_marginStart="55dp"
+                android:layout_marginEnd="229dp"
+                android:layout_marginBottom="55dp"
                 android:text="Emergencia"
                 app:layout_constraintBottom_toTopOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -215,16 +222,16 @@
         </RelativeLayout>
 
         <RelativeLayout
-            android:id="@+id/rl_info_lugar"
+            android:id="@+id/rl_uso_guantes"
             android:layout_width="389dp"
             android:layout_height="130dp"
+            android:layout_marginTop="23dp"
             android:background="@drawable/button_rounded"
+            android:foreground="?android:attr/selectableItemBackground"
             android:gravity="center"
-            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/rl_contactanos"
-            app:layout_constraintVertical_bias="0.079">
+            app:layout_constraintTop_toBottomOf="@+id/rl_emergencia">
 
             <ImageView
                 android:id="@+id/img_guante"

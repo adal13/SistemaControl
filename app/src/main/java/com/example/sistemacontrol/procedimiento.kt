@@ -16,5 +16,29 @@ class procedimiento : AppCompatActivity() {
             var lanzar = Intent (this, lavamano::class.java)
             startActivity(lanzar)
         }
+
+        var rl_cubreboca=findViewById<RelativeLayout>(R.id.rl_cubreboca)
+        rl_cubreboca.setOnClickListener {
+            var lanzar = Intent(this, usocubreboca::class.java)
+            startActivity(lanzar)
+        }
+
+        var rl_embarazo=findViewById<RelativeLayout>(R.id.rl_embarazo)
+        rl_embarazo.setOnClickListener {
+            var lanzar = Intent(this, embarazo::class.java)
+            startActivity(lanzar)
+        }
+
+        var rl_emergencia=findViewById<RelativeLayout>(R.id.rl_emergencia)
+        rl_emergencia.setOnClickListener {
+            var lanzar = Intent(this, emergencia::class.java)
+            startActivity(lanzar)
+        }
+
+        var rl_uso_guantes=findViewById<RelativeLayout>(R.id.rl_uso_guantes)
+        rl_uso_guantes.setOnClickListener {
+            var lanzar = Intent(this, usoguantes::class.java)
+            startActivity(lanzar)
+        }
     }
 }
