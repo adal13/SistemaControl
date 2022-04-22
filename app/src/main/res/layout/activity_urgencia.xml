@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".urgencia">
+
+    <TextView
+        android:id="@+id/textView90"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Urgencias Medicas"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView91"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="
+Alteración de la integridad fidica y/o mental de una persona, causada por una enfermedad poniendo en riesgo la vida del paciente, generando una demanda de atencion médica de inmediata, esto tiende a disminuir los riesgos.\n\n
+Cuando se presenta una urgencia es necesaria una atención inicial con el objetivo de estabilizar signos vitales y clasificar el estado de salud del paciente. Precisamente para esto se determina una prioridad en el servicio por medio del Triage.\n\n
+El triage es “el sistema de selección y clasificación de pacientes en los servicios de urgencias, basado en sus necesidades terapéuticas y los recursos disponibles. Consiste en una valoración clínica breve que determina la prioridad en que un paciente será atendido, y se clasifica en niveles de 1 a 5."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView90" />
+
+    <TextView
+        android:id="@+id/textView92"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Niveles de triage"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView91" />
+
+    <TextView
+        android:id="@+id/textView93"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="La atención en urgencias no se hace de acuerdo a un orden de llegada, sino de acuerdo con el riesgo que presenta la salud del paciente, según los niveles de clasificación del triage. Primero se atiende a quienes podrían llegar a perder la vida, un órgano o una parte de su cuerpo; luego siguen las urgencias de menor complejidad, que no comprometen la vida."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView92" />
+
+    <TextView
+        android:id="@+id/textView94"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Triage 1: PACIENTE GRAVE"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView93" />
+
+    <TextView
+        android:id="@+id/textView95"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Requiere atención inmediata del paciente, ya que su condición representa un riesgo vital. Casos como paro cardiorrespiratorio, hemorragias severas, pérdida de un miembro u órgano, entre otros."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView94" />
+
+    <TextView
+        android:id="@+id/textView96"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Triage 2:PACIENTE GRAVE"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView95" />
+
+    <TextView
+        android:id="@+id/textView97"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="La condición clínica del paciente puede evolucionar hacia un rápido deterioro, por eso, requiere una atención que no debe superar los treinta (30) minutos. Por ejemplo, casos como un dolor extremo, heridas no vitales, diarrea aguda con dolor abdominal o fiebre, vómito sin tolerancia a vía oral, entre otros"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView96" />
+
+    <TextView
+        android:id="@+id/textView98"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Triage 3: COMPLEJIDAD MEDIA"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView97" />
+
+    <TextView
+        android:id="@+id/textView99"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="La condición clínica del paciente requiere de medidas diagnósticas y terapéuticas en urgencias. Es decir, necesita un examen o un tratamiento rápido, pero se debe actuar pronto. Casos como dolor por un par de días, cuerpo extraño en el oído sin dolor o sangrado, dolor lumbar que se irradia hacia las piernas o lumbalgia súbita, entre otros."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView98" />
+
+    <TextView
+        android:id="@+id/textView100"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Triage 4: CONDICION NO URGENTE"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView99" />
+
+    <TextView
+        android:id="@+id/textView101"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="El paciente presenta condiciones médicas que no comprometen su estado general, ni representan un riesgo evidente para su vida. Casos como dolor no agudo en el estómago, sinusitis, entre otros. En este caso se recomienda atención por consulta prioritaria."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView100" />
+
+    <TextView
+        android:id="@+id/textView102"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Triage 5: CONSULTA GENERAL"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView101" />
+
+    <TextView
+        android:id="@+id/textView103"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="El paciente presenta una condición clínica relacionada con problemas agudos o crónicos sin evidencia de deterioro que comprometa su estado general. Casos como dolor de garganta, dolor lumbar de varios días de evolución, cólico abdominal sin vómito o diarrea, entre otros. Se recomienda asistir a consulta prioritaria o programar consulta externa."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView102" />
+</androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

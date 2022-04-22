@@ -1,9 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".privacidad">
+    android:fillViewport="true">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".privacidad">
+
+        <TextView
+            android:id="@+id/textView117"
+            android:layout_width="386dp"
+            android:layout_height="791dp"
+            android:layout_marginTop="16dp"
+            android:text="
+EL CLIENTE declara que debido al carácter de su actividad y siendo la información de sus pacientes uno de sus bienes más importantes requiere la confidencialidad plena respecto de cualquier información a la que EL PRESTADOR DEL SERVICIOS tuviera acceso.\n\n
+EL PRESTADOR DEL SERVICIO se compromete bajo un código de ética profesional y bajo la Ley Federal de Protección de Datos Personales en Posesión de los Particulares, a no divulgar por ningún medio, ni de cualquier modo hacer conocer a personas ajenas y extrañas a EL CLIENTE, cualquier información de los conocimientos al tema o que durante ese lapso tenga conocimiento.\n\n
+EL CLIENTE Y EL PRESTADOR DEL SERVICIO aceptan que no darán a conocer en forma pública o privada la información técnica o administrativa que llegaren a conocer uno del otro respecto de su operación.\n\n
+El PRESTADOR DEL SERVICIO se compromete a guardar estrictamente la confidencialidad de la información, misma que será entregada única y exclusivamente a EL CLIENTE en tiempo y forma estipulado, salvo aquellos que le sean requeridos por autoridades competentes y con el consentimiento de la Dirección General de EL CLIENTE, en término de lo dispuesto en el penúltimo párrafo de la presente Cláusula. Asimismo, se obliga a tomar las medidas necesarias para que sus filiales, empleados, representantes y prestatarios mantengan en forma confidencial dicha información.\n\n
+Si alguna de las partes es requerida por una autoridad judicial u otra autoridad competente, conforme a las disposiciones legales aplicables, para divulgar o revelar en todo o en parte la información señalada en la presente Cláusula, hará su mejor esfuerzo para notificar el requerimiento a la otra parte antes de dar cumplimiento al mismo, y en caso de que no fuera factible tal notificación, deberá comunicar a su contraparte a la brevedad posible la situación mencionada, y los actos realizados, en cumplimiento de dicho requerimiento.\n\n
+Las anteriores obligaciones por parte de EL PRESTADOR DE SERVICIOS estarán sujetas al Decreto por la que se expide la Ley Federal de Protección de Datos de los Particulares y demás aplicables sobre la información confidencial. "
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

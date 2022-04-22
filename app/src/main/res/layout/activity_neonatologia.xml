@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".neonatologia">
+
+
+    <TextView
+        android:id="@+id/textView109"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Neonatologia"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView110"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="La neonatología es la rama de la medicina que comprende el estudio y la asistencia de las primeras horas de vida de los recién nacidos, que se consideran cruciales para determinar posibles complicaciones futuras y reaccionar ante ellas. La anamnesis perinatal, es decir, los hechos que permiten evaluar al neonato, está condicionada por los antecedentes familiares, fisiológicos, patológicos, etc."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView109" />
+
+    <TextView
+        android:id="@+id/textView111"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Que enfermedades trata la neonatologia"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView110" />
+
+    <TextView
+        android:id="@+id/textView112"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="
+1.-Diagnóstico y tratamiento de bebés con afecciones como trastornos respiratorios, infecciones y defectos congénitos.\n
+2.-Coordinar el cuidado y el manejo médico de bebés prematuros, con enfermedades críticas o que necesitan de una cirugía.\n
+3.-Garantizar que todos los recién nacidos con una enfermedad crítica reciban la nutrición adecuada para poder sanar y crecer debidamente.\n
+4.-Atender a recién nacidos en partos por cesárea o partos que conllevan problemas médicos para la madre o el bebé y que pueden afectar la salud del bebé y requerir intervención médica en la sala de partos.\n
+5.-Estabilizar y tratar a recién nacidos con cualquier problema médico que ponga en peligro su vida"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView111" />
+
+    <TextView
+        android:id="@+id/textView113"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="¿Qué subepecialidad hay?"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView112" />
+
+    <TextView
+        android:id="@+id/textView114"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="La neonatología es una especialidad dentro de la pediatría y a diferencia de otras especialidades, la neonatología se dedica al estudio de un determinado periodo de la vida del niño, más específicamente hablando, de los 28 primeros días. Se considera una subespecialidad ya que es durante este periodo cuando se produce el proceso de adaptación que implica el paso de la vida intrauterina a la extrauterina."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView113" />
+
+    <TextView
+        android:id="@+id/textView115"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="¿Cuánto hay que ir al Pediatra?"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView114" />
+
+    <TextView
+        android:id="@+id/textView116"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="El experto que se encarga de tratar estas patologías es un pediatra especialista en neonatología. Este especialista se centra en las alteraciones que puede desarrollar un recién nacido durante el periodo que transcurre desde su nacimiento hasta los 28 días. En la mayoría de los casos, los bebés todavía no están maduros, es decir, su organismo no funciona como un adulto. La visita a este especialista puede deberse a alteraciones en el recién nacido conocidas como “alteraciones de madurez”, que no se traducen como enfermedades, sino características del recién nacido. Estas alteraciones pueden ser digestivas, como por ejemplo, falta de tolerancia al alimento, gases y cólicos entre otras."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView115" />
+</androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

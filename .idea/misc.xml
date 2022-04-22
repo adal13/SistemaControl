@@ -9,17 +9,27 @@
         <entry key="..\:/Prac Cursos/7.-Kotlin/SistemaControl/app/src/main/res/drawable/ic_baseline_menu_24.xml" value="0.143" />
         <entry key="..\:/Prac Cursos/7.-Kotlin/SistemaControl/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2115" />
         <entry key="..\:/Prac Cursos/7.-Kotlin/SistemaControl/app/src/main/res/layout-land/activity_index.xml" value="0.1728395061728395" />
-        <entry key="..\:/Prac Cursos/7.-Kotlin/SistemaControl/app/src/main/res/layout/activity_contacto.xml" value="0.1675929884566054" />
-        <entry key="..\:/Prac Cursos/7.-Kotlin/SistemaControl/app/src/main/res/layout/activity_cursos.xml" value="0.1675929884566054" />
-        <entry key="..\:/Prac Cursos/7.-Kotlin/SistemaControl/app/src/main/res/layout/activity_index.xml" value="0.25" />
-        <entry key="..\:/Prac Cursos/7.-Kotlin/SistemaControl/app/src/main/res/layout/activity_info_lugar.xml" value="0.25" />
+        <entry key="..\:/Prac Cursos/7.-Kotlin/SistemaControl/app/src/main/res/layout/activity_anatomia.xml" value="0.25" />
+        <entry key="..\:/Prac Cursos/7.-Kotlin/SistemaControl/app/src/main/res/layout/activity_contacto.xml" value="0.25" />
+        <entry key="..\:/Prac Cursos/7.-Kotlin/SistemaControl/app/src/main/res/layout/activity_cursos.xml" value="0.2" />
+        <entry key="..\:/Prac Cursos/7.-Kotlin/SistemaControl/app/src/main/res/layout/activity_embarazo.xml" value="0.18" />
+        <entry key="..\:/Prac Cursos/7.-Kotlin/SistemaControl/app/src/main/res/layout/activity_embriologia.xml" value="0.33" />
+        <entry key="..\:/Prac Cursos/7.-Kotlin/SistemaControl/app/src/main/res/layout/activity_emergencia.xml" value="0.25" />
+        <entry key="..\:/Prac Cursos/7.-Kotlin/SistemaControl/app/src/main/res/layout/activity_fisiologia.xml" value="0.33" />
+        <entry key="..\:/Prac Cursos/7.-Kotlin/SistemaControl/app/src/main/res/layout/activity_geriatria.xml" value="0.33" />
+        <entry key="..\:/Prac Cursos/7.-Kotlin/SistemaControl/app/src/main/res/layout/activity_index.xml" value="0.33" />
+        <entry key="..\:/Prac Cursos/7.-Kotlin/SistemaControl/app/src/main/res/layout/activity_info_lugar.xml" value="0.2" />
         <entry key="..\:/Prac Cursos/7.-Kotlin/SistemaControl/app/src/main/res/layout/activity_infopaciente.xml" value="0.2" />
-        <entry key="..\:/Prac Cursos/7.-Kotlin/SistemaControl/app/src/main/res/layout/activity_lavamano.xml" value="0.25" />
-        <entry key="..\:/Prac Cursos/7.-Kotlin/SistemaControl/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Prac Cursos/7.-Kotlin/SistemaControl/app/src/main/res/layout/activity_lavamano.xml" value="0.335042735042735" />
+        <entry key="..\:/Prac Cursos/7.-Kotlin/SistemaControl/app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/Prac Cursos/7.-Kotlin/SistemaControl/app/src/main/res/layout/activity_menu_info.xml" value="0.25" />
+        <entry key="..\:/Prac Cursos/7.-Kotlin/SistemaControl/app/src/main/res/layout/activity_neonatologia.xml" value="0.335042735042735" />
         <entry key="..\:/Prac Cursos/7.-Kotlin/SistemaControl/app/src/main/res/layout/activity_opciones.xml" value="0.1675929884566054" />
-        <entry key="..\:/Prac Cursos/7.-Kotlin/SistemaControl/app/src/main/res/layout/activity_privacidad.xml" value="0.1675929884566054" />
-        <entry key="..\:/Prac Cursos/7.-Kotlin/SistemaControl/app/src/main/res/layout/activity_procedimiento.xml" value="0.25" />
+        <entry key="..\:/Prac Cursos/7.-Kotlin/SistemaControl/app/src/main/res/layout/activity_privacidad.xml" value="0.33" />
+        <entry key="..\:/Prac Cursos/7.-Kotlin/SistemaControl/app/src/main/res/layout/activity_procedimiento.xml" value="0.33" />
+        <entry key="..\:/Prac Cursos/7.-Kotlin/SistemaControl/app/src/main/res/layout/activity_urgencia.xml" value="0.335042735042735" />
+        <entry key="..\:/Prac Cursos/7.-Kotlin/SistemaControl/app/src/main/res/layout/activity_usocubreboca.xml" value="0.33" />
+        <entry key="..\:/Prac Cursos/7.-Kotlin/SistemaControl/app/src/main/res/layout/activity_usoguantes.xml" value="0.25" />
         <entry key="..\:/Prac Cursos/7.-Kotlin/SistemaControl/app/src/main/res/layout/app_bar_main.xml" value="0.1675929884566054" />
         <entry key="..\:/Prac Cursos/7.-Kotlin/SistemaControl/app/src/main/res/layout/app_bar_menu_info.xml" value="0.1675929884566054" />
         <entry key="..\:/Prac Cursos/7.-Kotlin/SistemaControl/app/src/main/res/layout/app_bar_opciones.xml" value="0.1675929884566054" />

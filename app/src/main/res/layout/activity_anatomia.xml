@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".anatomia">
+
+
+    <TextView
+        android:id="@+id/textView61"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="Anatomia del Cuerpo Humano"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView62"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="30dp"
+        android:text="
+Es la rama de las ciencias biológicas que trata de la forma y estructura de los organismos. Se halla íntimamente ligada con la fisiología.\n\n
+Es una rama de las ciencias biológicas que trata de las funciones normales del Cuerpo Se emplean dos métodos especiales para el estudio de la anatomía, el sistemático y el topográfico.En el primero se considera el cuerpo formado por sistemas de órganos o aparatos que son similares por su origen y estructura y están asociados en la realización de ciertas funciones.\n\n
+Existen cuatro tejidos básicos, que son el epitelial, el conjuntivo, el muscular y el nervioso, con los que el organismo se relaciona, se protege, secreta sustancias, mantiene su forma, se desplaza, coordina sus funciones y relaciones con el medio."
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView61" />
+
+    <TextView
+        android:id="@+id/textView63"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="Las divisiones de la anatomía sistemática son:"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView62" />
+
+    <TextView
+        android:id="@+id/textView64"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="
+1. Osteología: Descripción del esqueleto.\n
+2. Artrología: Descripción de las articulaciones.\n
+3. Miología: Descripción de los músculos.\n
+4. Esplacnología: se subdivide en:\n
+    a. Sistema Digestivo\n
+    b. Sistema Respiratorio\n
+    c. Sistema Urogenital: que se divide en:\n
+        * Órganos Urinarios\n
+        * Órganos Genitales\n
+5. Angiología: Descripción de los órganos de la circulación.\n
+6. Neurología: Descripción del sistema nervioso.\n
+7. Estiología: Descripción de los órganos de los sentidos.\n"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView63" />
+
+    <TextView
+        android:id="@+id/textView65"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="El termino anatomía topográfica designa los métodos con que se determinan exactamente las posiciones relativas de varias partes del cuerpo, presupone un conocimiento de la anatomía sistémica  "
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView64" />
+</androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

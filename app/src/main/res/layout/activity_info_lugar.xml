@@ -1,29 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+<ScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    tools:context=".info_lugar">
+    android:fillViewport="true">
 
-    <TextView
+
+    <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="System Core"
-        android:textSize="30dp"
-        android:textStyle="bold"
-        android:textColor="@color/black"
-        android:textAlignment="center"
-        android:background="#e4e4"
-        android:padding="10dp"/>
+        android:layout_height="match_parent"
+        tools:context=".info_lugar">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text=""/>
+        <TextView
+            android:id="@+id/textView118"
+            android:layout_width="306dp"
+            android:layout_height="97dp"
+            android:layout_marginTop="16dp"
+            android:text="System_Core con domicilio en Rayon Chiapas S/N, Barrio San Antonio, C.P. 29740, Chiapas Mexico "
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.847"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
+        <ImageView
+            android:id="@+id/imageView12"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="28dp"
+            app:layout_constraintEnd_toStartOf="@+id/textView118"
+            app:layout_constraintHorizontal_bias="0.842"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ubicacion" />
 
-
-</LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

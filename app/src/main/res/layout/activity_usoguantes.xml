@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".usoguantes">
+
+
+    <TextView
+        android:id="@+id/textView46"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textStyle="italic"
+        android:textSize="20dp"
+        android:text="Procedimiento Uso de Guantes"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView47"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:textAlignment="gravity"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:text="
+Los guantes son un tipo de equipo de protección personal (EPP). Otros tipos de EPP son las batas, mascarillas y cubiertas para los zapatos y la cabeza.\n\n
+Los guantes crean una barrera entre los microbios y las manos. Usarlos en el hospital evita que los microbios se diseminen. Son parte de este equipo, de protección, generalmente cubren hasta las muñecas y la mano totalmente, deben colocarse por debajo del puño de la manga del mono o bata, con la finalidad de aislar la piel para evitar el contacto con fluidos. Se fabrican en diferentes materiales, en sanidad se usan de látex, básicamente de dos tipos, los de examen y los quirúrgicos o estériles, estos últimos representan la seguridad en materia de asepsia quirúrgica y también protegen al operador contra contagios cuando deben atender enfermos específicos. Las manos deben estar limpias antes de su colocación y luego de su eliminación, también deben lavarse."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView46" />
+
+    <TextView
+        android:id="@+id/textView48"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:textColor="@color/purple_200"
+        android:textAlignment="center"
+        android:text="Por qué llevar guantes:"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView47" />
+
+    <TextView
+        android:id="@+id/textView49"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:text="Utilizar guantes ayuda a proteger de infecciones tanto a los pacientes como a los trabajadores de la salud."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView48" />
+
+    <TextView
+        android:id="@+id/textView50"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:textAlignment="center"
+        android:textColor="@color/green_light"
+        android:text="Cuándo usar guantes:"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView49" />
+
+    <TextView
+        android:id="@+id/textView51"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:text="Los guantes ayudan a mantener las manos limpias y disminuyen la probabilidad de contraer microbios que puedan enfermarlo. Use guantes cada vez que vaya a tocar sangre, fluidos corporales, tejidos corporales, membranas mucosas o piel lesionada. Debe utilizar guantes para este tipo de contacto incluso si el paciente parece saludable y no tiene signos de ningún microbio."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView50" />
+
+    <TextView
+        android:id="@+id/textView52"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:gravity="center"
+        android:textColor="@color/green_light"
+        android:text="Escoger los guantes apropiados"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView51" />
+
+    <TextView
+        android:id="@+id/textView53"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="gravity"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="10dp"
+        android:text="Los recipientes de guantes desechables deben estar disponibles en cualquier sala o área donde tenga lugar la atención a pacientes. Los guantes vienen en diferentes tamaños, así que asegúrese de escoger el tamaño correcto para que le queden bien."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.866"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView52" />
+
+    <TextView
+        android:id="@+id/textView54"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="
+-Si los guantes son demasiado grandes, es difícil sostener objetos y es más fácil que los gérmenes penetren en sus guantes.\n
+-Los guantes que son demasiado pequeños son más propensos a rasgarse."
+        android:textAlignment="inherit"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.934"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView53" />
+
+    <TextView
+        android:id="@+id/textView55"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:textAlignment="viewStart"
+        android:text="Algunos procedimientos de limpieza y cuidados requieren guantes estériles o quirúrgicos. Estéril significa &quot;libre de microbios&quot;. Estos guantes vienen en tamaños numerados (5.5 a 9). Sepa el tamaño de los suyos con antelación. Si usted va a manipular productos químicos, revise la hoja de datos de seguridad del material para ver qué tipo de guante va a necesitar."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView54" />
+
+    <TextView
+        android:id="@+id/textView56"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/purple_200"
+        android:text="NO UTILICE lociones ni cremas para las manos a base de aceite, a menos que estén aprobadas para su uso con guantes de látex. Si tiene alergia al látex, utilice guantes que no sean de látex y evite el contacto con otros productos que contengan este material."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView55" />
+
+    <TextView
+        android:id="@+id/textView57"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:textAlignment="center"
+        android:textColor="@color/green_light"
+        android:text="Quitarse los guantes"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView56" />
+
+    <TextView
+        android:id="@+id/textView58"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_height="wrap_content"
+        android:text="Cuando se quite los guantes, asegúrese de que la parte externa de ellos no toque sus manos desnudas. Siga estos pasos:"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView57" />
+
+    <TextView
+        android:id="@+id/textView59"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:text="
+-Con la mano izquierda, agarre la parte exterior del guante derecho a la altura de la muñeca.\n
+-Hale hacia las puntas de los dedos. El guante se volteará al revés.\n
+-Sostenga el guante vacío con la mano izquierda.\n
+-Ponga 2 dedos de la mano derecha en el guante izquierdo.\n
+-Hale hacia las puntas de los dedos hasta que haya volteado el guante al revés y lo haya retirado de su mano. El guante derecho estará ahora dentro del guante izquierdo.\n
+-Bote los guantes en un recipiente autorizado para desechos."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView58" />
+
+    <TextView
+        android:id="@+id/textView60"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:text="Utilice siempre guantes nuevos para cada paciente. Lávese las manos entre cada paciente para evitar transmitir microbios."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView59" />
+</androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        tools:context=".embarazo">
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Procedimiento Embarazo"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="italic"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="400dp"
+            android:layout_height="480dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginRight="30dp"
+            android:gravity="right"
+            android:text="Recibir buen cuidado antes, durante y después de su embarazo es muy importante. Puede ayudar a su bebé a crecer, desarrollarse y a mantenerlos a ambos saludables. Es la mejor manera de asegurar que su pequeño tenga un buen inicio para una vida saludable. CUIDADO PRENATAL Un buen cuidado prenatal incluye una buena alimentación y buenos hábitos de salud antes y durante el embarazo. Idealmente, usted debe hablar con su proveedor de atención médica antes de empezar a intentar quedar embarazada. He aquí algunas cosas que deberá hacer: Elegir a un proveedor: Será necesario que elija un proveedor para su embarazo y parto. Este proveedor le ofrecerá servicios de cuidado prenatal, de parto y de posparto. Tomar ácido fólico: Si está contemplando quedar embarazada, o si ya lo está, debe tomar un suplemento con al menos 400 microgramos (0.4 mg) de ácido fólico todos los días. Tomar ácido fólico reducirá el riesgo de ciertos defectos congénitos. Las vitaminas prenatales casi siempre contienen más de 400 microgramos (0.4 mg) de ácido fólico por cápsula o tableta. También debería: Hablar con su proveedor sobre cualquier medicamento que tome. Esto incluye medicamentos de venta libre. Solo debe tomar los medicamentos que su proveedor considere que es seguro tomar mientras está embarazada. Evitar todo uso de alcohol y el uso de drogas recreativas y limitar la cafeína. Dejar de fumar, si lo hace actualmente. Asistir a consultas y exámenes prenatales: Usted visitará muchas veces a su proveedor durante el embarazo para recibir cuidado prenatal. La cantidad de visitas y los tipos de exámenes que se le harán cambiarán según en qué punto de su embarazo se encuentre:"
+            android:textAlignment="inherit"
+            android:textColor="@color/green_light"
+            android:textStyle="normal"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.454"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Cuidado durante el primer trimestre\n Cuidado durante el segundo trimestre\n Cuidado durante el tercer trimestre"
+            android:textAlignment="center"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView12" />
+
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="5dp"
+            android:text="Hable con su proveedor sobre los distintos exámenes que se le practicarán durante el embarazo. Estos exámenes pueden ayudar a su proveedor a ver cómo se está desarrollando el bebé y a detectar cualquier problema con su embarazo. Los exámenes pueden incluir:"
+            android:textColor="@color/purple_500"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView13" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:gravity="right"
+            android:text="Pruebas de ultrasonidos para ver cómo está creciendo su bebé y ayudar a establecer una fecha de nacimiento estimada\n
+Pruebas de glucosa para detectar diabetes gestacional\n
+Pruebas de sangre para detectar el ADN fetal normal en sangre\n
+Ecocardiografía fetal para revisar el corazón del bebé\n
+Amniocentesis para buscar defectos congénitos y problemas genéticos\n
+Prueba de translucencia nucal para buscar problemas con los genes del bebé\n
+Análisis en busca de enfermedades de transmisión sexual\n
+Exámenes de tipo de sangre como Rh y ABO\n
+Exámenes de sangre para anemia\n
+Exámenes de sangre para hacer seguimiento a cualquier enfermedad crónica que haya tenido antes de quedar en embarazo\n
+Según sus antecedentes familiares, puede elegir hacerse pruebas de detección de problemas genéticos. Hay muchas cosas que debe pensar antes de realizar pruebas genéticas. Su proveedor puede ayudarle a decidir si esto es lo mejor para usted.\n"
+            android:textColor="@color/green_dark"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView14" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Si usted tiene un embarazo de alto riesgo, podría ser necesario que consulte a su proveedor con mayor frecuencia, y que se realice exámenes adicionales."
+            app:layout_constraintTop_toBottomOf="@+id/textView15"
+            tools:layout_editor_absoluteX="1dp" />
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="QUÉ ESPERAR DURANTE EL EMBARAZO"
+            app:layout_constraintTop_toBottomOf="@+id/textView16"
+            tools:layout_editor_absoluteX="1dp" />
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Su proveedor hablará con usted sobre cómo manejar las molestias comunes del embarazo como lo son:"
+            app:layout_constraintTop_toBottomOf="@+id/textView17"
+            tools:layout_editor_absoluteX="0dp" />
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:text="
+-Náuseas del embarazo\n
+-Dolores de espalda, de piernas y otros dolores que se presentan en el embarazo\n
+-Problemas para dormir\n
+-Cambios en la piel y el cabello\n
+-Sangrado vaginal en las primeras etapas del embarazo\n
+-No hay dos embarazos iguales. Algunas mujeres tienen síntomas leves, o muy pocos síntomas durante el embarazo. Muchas mujeres trabajan durante todo el término y viajan mientras están embarazadas. Otras podrían necesitar disminuir sus horas o dejar de trabajar. Algunas mujeres requieren reposo en cama durante algunos días o posiblemente semanas para tener un embarazo saludable."
+            android:textAlignment="gravity"
+            android:textColor="@color/black"
+            app:layout_constraintTop_toBottomOf="@+id/textView18"
+            tools:layout_editor_absoluteX="1dp" />
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="POSIBLES COMPLICACIONES DEL EMBARAZO:"
+            app:layout_constraintTop_toBottomOf="@+id/textView19"
+            tools:layout_editor_absoluteX="7dp" />
+
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:text="El embarazo es un proceso complejo. Si bien muchas mujeres tienen embarazos normales, pueden presentarse complicaciones. Sin embargo, presentar una complicación no quiere decir que no tendrá un bebé saludable. Más bien, significa que su proveedor la vigilará de cerca y cuidará especialmente de usted y de su bebé durante el resto de su término. Las complicaciones comunes incluyen:"
+            android:textAlignment="inherit"
+            android:textColor="@color/teal_700"
+            app:layout_constraintTop_toBottomOf="@+id/textView20"
+            tools:layout_editor_absoluteX="0dp" />
+
+        <TextView
+            android:id="@+id/textView22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="
+-Diabetes durante el embarazo (diabetes gestacional).\n
+-Presión arterial alt durante el embarazo (preeclampsia). Su proveedor hablará con usted sobre cómo cuidarse si tiene preeclampsia.\n
+-Cambios prematuros o pretérmino en su cuello uterino.\n
+-Problemas con la placenta. Es posible que cubra el cuello uterino, que se aleje de la matriz o que no esté funcionando tan bien como debería.\n
+-Sangrado vaginal.\n
+-Trabajo de parto prematuro.\n
+-Que su bebé no esté creciendo bien.\n
+-Que su bebé presente problemas de salud.\n
+-Pensar en los posibles problemas puede ser atemorizante. Pero es importante estar al tanto de manera que pueda informar a su proveedor si nota síntomas inusuales."
+            android:textColor="@color/purple_500"
+            app:layout_constraintTop_toBottomOf="@+id/textView21"
+            tools:layout_editor_absoluteX="0dp" />
+
+        <TextView
+            android:id="@+id/textView23"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TRABAJO DE PARTO Y ALUMBRAMIENTO:"
+            app:layout_constraintTop_toBottomOf="@+id/textView22"
+            tools:layout_editor_absoluteX="46dp" />
+
+        <TextView
+            android:id="@+id/textView24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginRight="20dp"
+            android:text="Hable con su proveedor sobre lo que puede esperar durante el trabajo de parto y el alumbramiento. Puede comunicar sus deseos preparando un plan de parto. Hable con su proveedor sobre lo que debe incluir en su plan de parto. Puede querer incluir cosas como:"
+            android:textColor="@color/black"
+            app:layout_constraintTop_toBottomOf="@+id/textView23"
+            tools:layout_editor_absoluteX="1dp" />
+
+        <TextView
+            android:id="@+id/textView25"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:text="
+-Cómo desea manejar el dolor durante el trabajo de parto, incluso si desea o no recibir un bloqueo epidural\n
+-Sus sentimientos sobre la episiotomía\n
+-Qué sucedería si requiere una cesárea\n
+-Sus sentimientos sobre un parto asistido con fórceps o con ayuda de ventosas\n
+-Quién desea que esté con usted durante el parto"
+            android:textColor="@color/teal_200"
+            app:layout_constraintTop_toBottomOf="@+id/textView24"
+            tools:layout_editor_absoluteX="1dp" />
+
+        <TextView
+            android:id="@+id/textView26"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="También es buena idea hacer una lista de las cosas que debe llevar al hospital. Empaque una maleta con anticipación para tenerla lista cuando comience el trabajo de parto. Conforme se acerque la fecha esperada para el parto, notará ciertos cambios. No siempre es fácil notar cuándo comenzará el trabajo de parto. Su proveedor podrá decirle cuándo es momento de visitarlo para hacerse un examen o dirigirse al hospital para el parto. Hable con su proveedor sobre lo que sucede si supera la fecha esperada de parto. Según su edad y factores de riesgo, su proveedor podría tener que provocar el parto entre la semana 39 y la semana 42, aproximadamente. Una vez que comienza el trabajo de parto, puede utilizar una serie de estrategias para sobrellevarlo."
+            app:layout_constraintTop_toBottomOf="@+id/textView25"
+            tools:layout_editor_absoluteX="1dp" />
+
+        <TextView
+            android:id="@+id/textView27"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="QUÉ ESPERAR LUEGO DEL NACIMIENTO DE SU BEBÉ: "
+            app:layout_constraintTop_toBottomOf="@+id/textView26"
+            tools:layout_editor_absoluteX="0dp" />
+
+        <TextView
+            android:id="@+id/textView28"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tener un bebé es un hecho emocionante y maravilloso. También implica mucho trabajo para la madre. Usted necesitará cuidarse en las primeras semanas luego del alumbramiento. El tipo de cuidado que necesitará dependerá de cómo dio a luz a su bebé. Si tuvo un parto vaginal, probablemente pasará 1 o 2 días en el hospital antes de irse a casa. Si tuvo una cesárea se quedará en el hospital por 2 o 3 días antes de irse a casa. Su proveedor le explicará cómo cuidarse usted sola cuando regrese a casa conforme se recupera. Si usted es capaz de amamantar, hacerlo tiene muchos beneficios. También puede ayudarle a perder el peso que subió durante el embarazo. Téngase paciencia mientras aprende a amamantar. Aprender las habilidades necesarias para amamantar a su bebé puede llevar de 2 a 3 semanas. Hay mucho que aprender, como:"
+            app:layout_constraintTop_toBottomOf="@+id/textView27"
+            tools:layout_editor_absoluteX="0dp" />
+
+        <TextView
+            android:id="@+id/textView29"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cómo cuidar sus senos La posición del bebé para amamantarlo Cómo superar cualquier problema con el amamantamiento Extracción y almacenamiento de leche materna Cambios en la piel y el pezón a causa del amamantamiento El mejor momento para amamantar Si necesita ayuda, hay muchos recursos disponibles para las madres primerizas."
+            app:layout_constraintTop_toBottomOf="@+id/textView28"
+            tools:layout_editor_absoluteX="0dp" />
+
+        <TextView
+            android:id="@+id/textView30"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CUÁNDO LLAMAR AL PROVEEDOR DE ATENCIÓN MÉDICA:"
+            app:layout_constraintTop_toBottomOf="@+id/textView29"
+            tools:layout_editor_absoluteX="0dp" />
+
+        <TextView
+            android:id="@+id/textView31"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Llame a su proveedor si está o cree que está embarazada y: "
+            app:layout_constraintTop_toBottomOf="@+id/textView30"
+            tools:layout_editor_absoluteX="0dp" />
+
+        <TextView
+            android:id="@+id/textView32"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="
+-Toma medicamentos para diabetes, enfermedad de la tiroides, convulsiones o presión arterial alta\n
+-No está recibiendo cuidado prenatal\n
+-No puede manejar las molestias comunes del embarazo sin tomar medicamentos\n
+-Podría haber estado expuesta a una infección de transmisión sexual, a químicos, a radiación o a otras sustancias tóxicas"
+            app:layout_constraintTop_toBottomOf="@+id/textView31"
+            tools:layout_editor_absoluteX="0dp" />
+
+        <TextView
+            android:id="@+id/textView33"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Consulte a su proveedor inmediatamente si está embarazada y tiene:"
+            app:layout_constraintTop_toBottomOf="@+id/textView32"
+            tools:layout_editor_absoluteX="0dp" />
+
+        <TextView
+            android:id="@+id/textView34"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="
+-Fiebre, escalofrío o micción dolorosa\n
+-Sangrado vaginal\n
+-Dolor abdominal intenso\n
+-Traumatismo físico o trauma emocional grave\n
+-Ruptura de fuente (ruptura de membranas)\n
+-Poco o ningún movimiento del bebé en la segunda mitad de su embarazo"
+            app:layout_constraintTop_toBottomOf="@+id/textView33"
+            tools:layout_editor_absoluteX="0dp" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

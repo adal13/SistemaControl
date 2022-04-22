@@ -53,9 +53,10 @@ class infopaciente : AppCompatActivity() {
                 for (dato in set)
                 {
                     val map=dato.getValue() as HashMap <String,Any>
-                    Log.d("Nombre Persona", map.get("nombre").toString())
+                    //Log.d("Nombre Persona", map.get("nombre ").toString())+Log.d("Apellido Paterno", map.get("apellidopaterno ").toString())+ Log.d("Apellido Materno", map.get("apellidomaterno ").toString())
+                    Log.d("Nombre Persona", map.get("nombre").toString()+map.get("apellidopaterno").toString()+map.get("apellidomaterno").toString())
                     //Llenar la lista con el nombre de las personas
-                    name_of_people.add(map.get("nombre").toString())
+                    name_of_people.add(map.get("nombre").toString()+" "+map.get("apellidopaterno").toString()+" "+map.get("apellidomaterno").toString())
 
                     //Llenar el arreglo de personas
                     people_arrangement.add(people(map.get("apellidomaterno").toString(),

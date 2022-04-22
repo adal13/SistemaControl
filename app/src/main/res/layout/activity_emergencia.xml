@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".emergencia">
+
+    <TextView
+        android:id="@+id/textView35"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Procedimiento Emergencia"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView36"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="10dp"
+        android:gravity="start"
+        android:text="La palabra urgencia viene del latín urgentĭa, que significa “apremiante” o “que urge”. Por tanto, cuando hablamos de una urgencia médica nos referimos a una situación que requiere una atención rápida. "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView35" />
+
+    <TextView
+        android:id="@+id/textView37"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:textAlignment="center"
+        android:textColor="@color/purple_500"
+        android:text="Cómo actuar en caso de una urgencia médica"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView36" />
+
+    <TextView
+        android:id="@+id/textView38"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:text="Del mismo modo, si usted cree que necesita asistencia médica urgente, debe acudir al centro de salud o al hospital más cercano para que le vea un médico. No obstante, debe saber que el orden para atender a una persona en Urgencias va en función de su gravedad. Para ello, a los pacientes se les hace un triaje (proceso de valoración clínica preliminar) cuando llegan. Mediante este proceso es posible determinar la urgencia del problema y con ella, el nivel de prioridad en la atención. En este punto es necesario recordar que las salas de urgencias de los hospitales públicos en España suelen estar siempre saturadas. En la última Encuesta Nacional de Salud, uno de cada tres españoles reconocía haber visitado los servicios de urgencias durante el último año. Por eso, desde Sanidad se insta a los pacientes a no utilizar estos servicios si su estado no reviste gravedad. Para síntomas como el dolor de garganta, fiebre, tos, estreñimiento, diarrea, conjuntivitis, dolor de espalda, dolor de oídos o vómitos, por ejemplo, los pacientes deberían acudir a los centros de atención primaria."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView37" />
+
+    <TextView
+        android:id="@+id/textView39"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:textAlignment="center"
+        android:textColor="@color/teal_200"
+        android:text="¿Qué hacer en caso de una urgencia?"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView38" />
+
+    <TextView
+        android:id="@+id/textView40"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="Antes de la urgencia:"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView39" />
+
+    <TextView
+        android:id="@+id/textView41"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:text="
+1.-Lleva siempre contigo una identificación oficial, contacto de emergencia y datos de tu seguro de gastos médicos (credencial de aseguradora)\n
+2.-Ten siempre a la mano los datos más importantes de tu Historial Médico y el de tus familiares cercanos: (alergias, enfermedades en tratamiento, medicamentos en uso actual, cirugías efectuadas, tipo de sangre).\n
+3.-Conoce a detalle tu póliza de seguro (tipo de cobertura, hospitales y cláusulas de exclusión)."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView40" />
+
+    <TextView
+        android:id="@+id/textView42"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Durante la urgencia:"
+        android:textAlignment="center"
+        android:textColor="@color/green_light"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView41" />
+
+    <TextView
+        android:id="@+id/textView43"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:text="
+1.-Mantén la calma\n
+2.-Pide ayuda (teléfonos de emergencia: Servicio Nacional de Emergencias 066, Cruz Roja 065)\n
+3.-Pérdida del Estado de Consciencia, Falta de Aire, Dolor en el Pecho, Imposibilidad para hablar y/o mover alguna parte del cuerpo, son urgencias verdaderas... no dudes, acude a un hospital.\n
+4.-Datos importantes sobre el paciente que deben referirse al equipo de emergencia: Nombre, edad y/o fecha de nacimiento, alergias conocidas, hora de inicio del problema u hora aproximada en que el paciente fue visto bien por última vez (esto es muy importante en el caso de un probable infarto cerebral), medicación actual.\n
+5.-El hospital más cercano, no siempre es el mejor: Los casos de infarto agudo al corazón, infarto cerebral en evolución o trauma mayor deben ser atendidos en Hospitales que cuenten con los recursos humanos y de equipamiento necesarios para brindar el manejo de acuerdo a las mejores prácticas recomendadas a nivel internacional. Asegúrate que los operadores de la ambulancia cumplan con este requisito.\n
+6.-En una Urgencia, tu seguridad y la de los tuyos es lo más importante. No permitas que las prioridades de tu Agente de Seguros interfieran con esto...“exige tus derechos como asegurado”."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView42" />
+
+    <TextView
+        android:id="@+id/textView44"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:textAlignment="center"
+        android:text="Después de la urgencia:"
+        android:textColor="@color/purple_200"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView43" />
+
+    <TextView
+        android:id="@+id/textView45"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:text="
+1.-Mantén comunicación con el médico responsable de la atención y/o con el personal asignado para atender tus dudas.\n
+2.-Tienes derecho a recibir, según corresponda, información verbal y por escrito del proceso de atención efectuado, diagnósticos, manejos y recomendaciones posteriores al alta de Urgencias o al ingreso a hospitalización, según sea el caso.\n
+3.-Consulta con el personal administrativo y/o con el personal responsable de atención a pacientes del hospital, sobre el proceso de aviso del siniestro a la aseguradora, así como la documentación que vas a necesitar para que se lleve a cabo el proceso de pago según lo estipule tu póliza."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView44" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

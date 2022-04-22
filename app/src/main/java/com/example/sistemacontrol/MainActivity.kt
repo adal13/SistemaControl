@@ -20,7 +20,6 @@ class MainActivity : AppCompatActivity() {
 
         val btn_login_entrar=findViewById<Button>(R.id.btn_login_entrar)
 
-        //val database = Firebase.database.reference
         val database = Firebase.database.reference
 
         btn_login_entrar.setOnClickListener {
